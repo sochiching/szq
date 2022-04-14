@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T17:36:37.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="2lnrLjZ8iNI7t6gpPJCm" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T18:00:06.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Ll2swCyWtz3_AG-X53WV" version="17.4.4" type="github">
   <diagram id="u-de3FhM9FmhZ07raM_E" name="Page-1">
-    <mxGraphModel dx="1022" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-1" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="80" y="50" width="310" height="640" as="geometry" />
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-1" value="站内用户" style="swimlane;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="310" height="590" as="geometry" />
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-6" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-1">
           <mxGeometry x="120" y="50" width="30" height="30" as="geometry" />
@@ -16,13 +16,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-8" value="点击投稿" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-1">
-          <mxGeometry x="90" y="110" width="90" height="40" as="geometry" />
+          <mxGeometry x="90" y="115" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-12" value="上传视频和封面" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-1">
           <mxGeometry x="85" y="189" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-2" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="390" y="50" width="290" height="640" as="geometry" />
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-38" value="进行稿件管理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=14;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-1">
+          <mxGeometry x="85" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="TLO-3iS-r84SHTYbBu2k-38" parent="TLO-3iS-r84SHTYbBu2k-1" target="TLO-3iS-r84SHTYbBu2k-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="603" as="targetPoint" />
+            <mxPoint x="145" y="580" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-46" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=14;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-1">
+          <mxGeometry x="130" y="547" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-2" value="系统" style="swimlane;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="290" height="590" as="geometry" />
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-10" value="跳转到视频投稿页面" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
           <mxGeometry x="80" y="110" width="90" height="40" as="geometry" />
@@ -36,61 +49,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-18" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
-          <mxGeometry x="120" y="360" width="40" height="40" as="geometry" />
+          <mxGeometry x="120" y="340" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-20" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="TLO-3iS-r84SHTYbBu2k-18" parent="TLO-3iS-r84SHTYbBu2k-2" target="TLO-3iS-r84SHTYbBu2k-21">
           <mxGeometry x="-0.4286" y="-31" relative="1" as="geometry">
             <mxPoint x="30" y="451" as="targetPoint" />
             <mxPoint x="100" y="381" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="120" y="381" />
-              <mxPoint x="55" y="381" />
+              <mxPoint x="60" y="360" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-21" value="上传到服务器" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
-          <mxGeometry x="10" y="440" width="90" height="40" as="geometry" />
+          <mxGeometry x="15" y="421" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TLO-3iS-r84SHTYbBu2k-22" value="上传失败" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
-          <mxGeometry x="180" y="440" width="100" height="40" as="geometry" />
+          <mxGeometry x="200" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-19" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="TLO-3iS-r84SHTYbBu2k-18" parent="TLO-3iS-r84SHTYbBu2k-2" target="TLO-3iS-r84SHTYbBu2k-22">
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-19" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="TLO-3iS-r84SHTYbBu2k-18" parent="TLO-3iS-r84SHTYbBu2k-2" target="TLO-3iS-r84SHTYbBu2k-22">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="230" y="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="380" />
+              <mxPoint x="230" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-30" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
-          <mxGeometry x="120" y="495" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TLO-3iS-r84SHTYbBu2k-2" source="TLO-3iS-r84SHTYbBu2k-22" target="TLO-3iS-r84SHTYbBu2k-30">
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="TLO-3iS-r84SHTYbBu2k-2" source="TLO-3iS-r84SHTYbBu2k-36">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="250" y="565" as="targetPoint" />
-            <mxPoint x="180" y="505" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="230" y="515" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TLO-3iS-r84SHTYbBu2k-2" source="TLO-3iS-r84SHTYbBu2k-21" target="TLO-3iS-r84SHTYbBu2k-30">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="24" y="552" as="targetPoint" />
+            <mxPoint x="60" y="520" as="targetPoint" />
             <mxPoint x="94" y="517" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="55" y="515" />
+              <mxPoint x="60" y="516" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-33" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
-          <mxGeometry x="125" y="570" width="30" height="30" as="geometry" />
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-43" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=14;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
+          <mxGeometry x="215" y="480" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TLO-3iS-r84SHTYbBu2k-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TLO-3iS-r84SHTYbBu2k-2" source="TLO-3iS-r84SHTYbBu2k-30" target="TLO-3iS-r84SHTYbBu2k-33">
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TLO-3iS-r84SHTYbBu2k-2" source="TLO-3iS-r84SHTYbBu2k-22" target="TLO-3iS-r84SHTYbBu2k-43">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="180" y="535" as="targetPoint" />
-            <mxPoint x="250" y="500" as="sourcePoint" />
+            <mxPoint x="160" y="480" as="targetPoint" />
+            <mxPoint x="180" y="505" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-36" value="投稿发布到圈地自萌" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=14;" vertex="1" parent="TLO-3iS-r84SHTYbBu2k-2">
+          <mxGeometry x="14" y="480" width="92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=none;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TLO-3iS-r84SHTYbBu2k-2" source="TLO-3iS-r84SHTYbBu2k-21" target="TLO-3iS-r84SHTYbBu2k-36">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="450" y="570" as="targetPoint" />
+            <mxPoint x="450" y="501" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -115,6 +125,11 @@
             <Array as="points">
               <mxPoint x="215" y="320" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLO-3iS-r84SHTYbBu2k-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="TLO-3iS-r84SHTYbBu2k-36" parent="1" target="TLO-3iS-r84SHTYbBu2k-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
